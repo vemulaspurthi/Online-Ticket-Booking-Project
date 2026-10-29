@@ -1,0 +1,38 @@
+/* Global styles for TicketHub */
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #172033;
+  background: #f5f7fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  background: #f5f7fc;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

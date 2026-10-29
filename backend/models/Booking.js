@@ -17,7 +17,7 @@ const bookingSchema = new mongoose.Schema({
     required: true,
     trim: true,
   },
-  seats: {
+  seats :{
     type: [String],
     required: true,
     validate: {
